@@ -8,3 +8,12 @@ if (a > b) {
 } else {
   console.log(`a:${a} is lesser than b:${b}`);
 }
+
+// else if{}
+//
+// equals
+//
+// else
+// {
+// if ()
+// }
