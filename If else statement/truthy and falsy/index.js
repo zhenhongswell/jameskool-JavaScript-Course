@@ -4,3 +4,9 @@ if (value) {
 } else {
   console.log("falsy");
 }
+
+function test() {
+  let y = 10;
+}
+test();
+console.log(y);
