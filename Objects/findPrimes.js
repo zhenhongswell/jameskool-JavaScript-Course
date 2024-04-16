@@ -1,5 +1,6 @@
 function findPrimes(n) {
-  const array = [];
+  const array = [1, 2, 3];
+
   for (let number = 2; number <= n; number++) {
     let isPrime = true;
     let counter = 0;
