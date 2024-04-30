@@ -31,4 +31,19 @@ async function main() {
   });
 }
 
+async function main_Await() {
+  const p1 = doSomethingAsync()
+    .then((res) => res.json())
+    .then((data) => data);
+  const p2 = doSomethingAsync_2()
+    .then((res) => res.json())
+    .then((data) => data);
+  console.log(p1, p2);
+  const result1 = await p1;
+  console.log(1);
+  const result2 = await p2;
+  console.log(2);
+  console.log(result1, result2);
+}
+// main_Await();
 main();
